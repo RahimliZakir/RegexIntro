@@ -85,11 +85,11 @@
 </tr>
 <tr>
 <td>(?&lt;!-)\d</td>
-<td>Negative lookahead (Qarşısında "mənfi" işarəsi olmayan bir rəqəmi təmsil edir)</td>
+<td>Negative lookbehind (Qarşısında "mənfi" işarəsi olmayan bir rəqəmi təmsil edir)</td>
 </tr>
 <tr>
 <td>(?&lt;=-)\d</td>
-<td>Positive lookahead (Qarşısında "mənfi" işarəsi olan bir rəqəmi təmsil edir)</td>
+<td>Positive lookbehind (Qarşısında "mənfi" işarəsi olan bir rəqəmi təmsil edir)</td>
 </tr>
 <tr>
 <td>\b</td>
