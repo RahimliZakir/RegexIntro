@@ -77,19 +77,19 @@
 </tr>
 <tr>
 <td>(?=…)</td>
-<td>Positive lookahead (axtarış tabe olan mətndə mütləq olması lazım olan simvol və ya mətnin olmasını tələb edir)</td>
+<td>Positive lookahead (Axtarışa tabe olan mətndə mütləq olması lazım olan simvol və ya mətnin olmasını tələb edir, sonda yazılır)</td>
 </tr>
 <tr>
 <td>(?!…)</td>
-<td>Negative lookahead (axtarış tabe olan mətndə mütləq olması lazım olan simvol və ya mətnin olmamasını tələb edir)</td>
+<td>Negative lookahead (Axtarışa tabe olan mətndə mütləq olması lazım olan simvol və ya mətnin olmamasını tələb edir, sonda yazılır)</td>
 </tr>
 <tr>
-<td>(?&lt;!-)\d</td>
-<td>Negative lookbehind (Qarşısında "mənfi" işarəsi olmayan bir rəqəmi təmsil edir)</td>
+<td>(?&lt;=...)\d</td>
+<td>Positive lookbehind (Axtarışa tabe olan mətndə mütləq olması lazım olan simvol və ya mətnin olmasını tələb edir, başda yazılır)</td>
 </tr>
 <tr>
-<td>(?&lt;=-)\d</td>
-<td>Positive lookbehind (Qarşısında "mənfi" işarəsi olan bir rəqəmi təmsil edir)</td>
+<td>(?&lt;!...)\d</td>
+<td>Negative lookbehind (Axtarışa tabe olan mətndə mütləq olması lazım olan simvol və ya mətnin olmamasını tələb edir, başda yazılır)</td>
 </tr>
 <tr>
 <td>\b</td>
